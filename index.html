@@ -4,31 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
+        <a href="./index.html"><img src="./images/logo.svg" alt="logo" /></a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="link" href="#traditions">Наші традиції</a></li>
+          <li><a class="link" href="#chefs">Шеф-кухарі</a></li>
+          <li><a class="link" href="#formats">Формати</a></li>
+          <li><a class="link" href="#join-us">Контакти</a></li>
         </ul>
       </nav>
       <button type="button">Замовити дзвінок</button>
     </header>
     <main>
-      <ul>
-        <li>Великий попит на ринку</li>
-        <li>Доступні за бюджетом формати</li>
-        <li>Досвідчена управлінська команда</li>
-      </ul>
+      <!-- Великий попит на ринку  -->
       <section>
-        <h1>сучасна пекарня</h1>
+        <ul class="advantages-list">
+          <li>Великий попит на ринку</li>
+          <li>Доступні за бюджетом формати</li>
+          <li>Досвідчена управлінська команда</li>
+        </ul>
+        <h1 class="hero-title"><span class="accent">сучасна</span> пекарня</h1>
       </section>
-      <section>
-        <h2>Новий формат традицій</h2>
+      <!-- Новий формат традицій -->
+      <section id="traditions">
+        <h2 class="section-title">Новий формат традицій</h2>
         <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
         зберегла смак традиційної випічки та натуральність інгредієнтів.
         <p>
@@ -38,8 +41,9 @@
         </p>
         <img src="./images/image 1560.png" alt="baker-man" />
       </section>
-      <section>
-        <h2>Наші найркащі шеф-кухарі</h2>
+      <!-- Наші найркащі шеф-кухарі -->
+      <section id="chefs">
+        <h2 class="section-title">Наші найркащі шеф-кухарі</h2>
         <ul>
           <li>
             <article>
@@ -62,8 +66,9 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Формати</h2>
+      <!-- Формати -->
+      <section id="formats">
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article>
@@ -84,8 +89,9 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Приєднуйтесь до мережі пекарень</h2>
+      <!-- Приєднуйтесь до мережі пекарень -->
+      <section id="join-us">
+        <h2 class="section-title">Приєднуйтесь до мережі пекарень</h2>
       </section>
     </main>
     <footer>
