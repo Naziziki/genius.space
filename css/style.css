@@ -90,8 +90,8 @@ a {
 
 .main-button:hover {
   background-color: transparent;
-  /* color: var(--brand-color-dark); */
 }
+
 /* header */
 .header-container nav {
   display: flex;
