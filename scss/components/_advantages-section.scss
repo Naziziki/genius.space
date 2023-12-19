@@ -1,0 +1,17 @@
+/* Advantages Section */
+.advantages-list {
+    color: var(--color-primary-light);
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.advantages-list li {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.advantages-section {
+    background-color: var(--brand-color);
+    padding: 16px 0;
+}

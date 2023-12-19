@@ -1,0 +1,48 @@
+header {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+}
+
+.header-container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.link-list {
+    display: flex;
+    gap: 64px;
+}
+
+.link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.link:hover {
+    color: var(--brand-color);
+    transform: scale(1.03);
+}
+
+/* button */
+.main-button,
+.modal-btn-open {
+    background-color: var(--brand-color);
+    border: var(--brand-color) 2px solid;
+    border-radius: 8px;
+    color: var(--color-primary-light);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 32px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.5s;
+}
+
+.main-button:hover {
+    background-color: transparent;
+}

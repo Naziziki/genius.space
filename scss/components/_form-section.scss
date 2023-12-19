@@ -1,0 +1,31 @@
+/* form */
+.form-title {
+    margin-bottom: 16px;
+}
+
+.form-description {
+    color: var(--brand-color);
+    margin-bottom: 42px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 32px;
+}
+
+.contact-map {
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.contact-section {
+    padding-bottom: 96px;
+}
+
+.contact-form .form-field {
+    margin-bottom: 24px;
+}
+
+.contact-form .form-button {
+    margin-bottom: 16px;
+}
