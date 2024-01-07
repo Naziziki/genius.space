@@ -1,48 +1,88 @@
 header {
-    position: absolute;
-    top: 32px;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 100%;
 }
 
 .header-container nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .link-list {
-    display: flex;
-    gap: 64px;
+  display: flex;
+  white-space: nowrap;
+  gap: 64px;
+  @media screen and (max-width: $bp-desktop) {
+    display: none;
+  }
 }
 
 .link {
-    color: var(--color-primary-light);
-    text-decoration: none;
-    font-weight: 400;
-    transition: color 0.3s, transform 0.3s;
+  color: var(--color-primary-light);
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .link:hover {
-    color: var(--brand-color);
-    transform: scale(1.03);
+  color: var(--brand-color);
+  transform: scale(1.03);
+}
+
+.logo {
+  width: 114px;
+  height: 56px;
+
+  @media screen and (max-width: $bp-tablet) {
+    width: 72px;
+    height: 38px;
+  }
 }
 
 /* button */
-.main-button,
+
+.modal-btn-open,
+.main-button {
+  background-color: var(--brand-color);
+  border: var(--brand-color) 2px solid;
+  border-radius: 8px;
+  color: var(--color-primary-light);
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 32px;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.5s;
+}
 .modal-btn-open {
-    background-color: var(--brand-color);
-    border: var(--brand-color) 2px solid;
-    border-radius: 8px;
-    color: var(--color-primary-light);
-    font-weight: 600;
-    font-size: 18px;
-    padding: 16px 32px;
-    font-family: 'Poppins', sans-serif;
-    transition: background-color 0.5s;
+  @media screen and (max-width: $bp-desktop) {
+    display: none;
+  }
 }
 
+.modal-btn-open:hover,
 .main-button:hover {
-    background-color: transparent;
+  background-color: transparent;
+}
+
+.burger-btn-open {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  @media screen and (min-width: $bp-desktop) {
+    display: none;
+  }
+}
+.burger-icon {
+  height: 14px;
+  width: 20px;
+  fill: var(--color-primary-light);
 }

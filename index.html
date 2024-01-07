@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <!-- css -->
-    <link rel="stylesheet" href="./scss/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header>
@@ -20,7 +20,7 @@
         <div class="header-container">
           <nav class="nav">
             <a href="./index.html">
-              <img src="./images/logo.svg" alt="logo" />
+              <img src="./images/logo.svg" alt="logo" class="logo" />
             </a>
             <ul class="link-list">
               <li><a class="link" href="#traditions">Наші традиції</a></li>
@@ -28,8 +28,13 @@
               <li><a class="link" href="#formats">Формати</a></li>
               <li><a class="link" href="#join-us">Контакти</a></li>
             </ul>
-            <button class="main-button modal-btn-open" type="button">
+            <button class="modal-btn-open" type="button">
               Замовити дзвінок
+            </button>
+            <button class="burger-btn-open">
+              <svg class="burger-icon">
+                <use href="./images/icons.svg#icon-Menu"></use>
+              </svg>
             </button>
           </nav>
         </div>
@@ -42,10 +47,13 @@
           <h1 class="hero-title">
             <span class="accent">Сучасна</span> пекарня
           </h1>
+          <button class="modal-btn-open-Phone" type="button">
+            Замовити дзвінок
+          </button>
         </div>
       </section>
       <!-- Наші переваги -->
-      <section class="section advantages-section">
+      <!-- <section class="section advantages-section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="advantages-list">
@@ -54,9 +62,9 @@
             <li>Досвідчена управлінська команда</li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Новий формат традицій -->
-      <section class="traditions-section section" id="traditions">
+      <!-- <section class="traditions-section section" id="traditions">
         <div class="container">
           <div class="traditions-container">
             <div class="traditions-content">
@@ -85,9 +93,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Наші найркащі шеф-кухарі -->
-      <section class="section" id="chefs">
+      <!-- <section class="section" id="chefs">
         <div class="container">
           <h2 class="chefs-title section-title centered">
             Наші найркащі <br />
@@ -137,9 +145,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Формати -->
-      <section class="section" id="formats">
+      <!-- <section class="section" id="formats">
         <div class="container">
           <h2 class="formats-title section-title centered">Формати</h2>
           <div class="formats-container">
@@ -202,9 +210,9 @@
             </button>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Приєднуйтесь до мережі пекарень -->
-      <section class="section contact-section" id="join-us">
+      <!-- <section class="section contact-section" id="join-us">
         <div class="container">
           <div class="contact-container">
             <div class="contact-form">
@@ -280,9 +288,9 @@
             </iframe>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-container">
           <div class="footer-nav">
@@ -344,7 +352,7 @@
           </address>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden">
       <div class="modal">
