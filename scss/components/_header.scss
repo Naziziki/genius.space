@@ -33,9 +33,10 @@ header {
   transform: scale(1.03);
 }
 
-.logo {
+.header-logo {
   width: 114px;
   height: 56px;
+  fill: var(--color-primary-light);
 
   @media screen and (max-width: $bp-tablet) {
     width: 72px;
