@@ -12,11 +12,24 @@
   &.is-open {
     transform: translateX(0);
   }
+  // Navigation
+  &__nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 24px;
+    left: 24px;
+    top: 45px;
+  }
+
+  &__logo {
+    width: 72px;
+    height: 38px;
+  }
 
   &__btn-close {
-    position: absolute;
-    top: 16px;
-    right: 24px;
+    // position: absolute;
     padding: 0;
     width: 24px;
     height: 24px;
