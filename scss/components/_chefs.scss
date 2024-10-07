@@ -62,3 +62,15 @@
 .chef-text p:last-child {
   margin-bottom: 0;
 }
+
+.chef__experience {
+  background-color: var(--color-primary-light);
+  border: solid 2px var(--brand-color);
+  border-radius: 10px;
+  padding: 1px 8px;
+}
+.chef__experience_img {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
